@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.text-center {
+	text-align: center;
+}
+.cv-title {
+	font-size: 50px;
+	padding: 25px;
+	text-decoration: underline;
+}
+
+.about-me {
+	background-color: cadetblue;
+	text-align: center;
+	padding: 2rem;
+	img {
+		width: 30%;
+	}
+}
+.portfolio {
+	padding: 25px;
+}
+.card-one {
+	margin: auto;
+	width: 18rem;
+	border: 3px solid black;
+	img {
+		width: 100%;
+	}
+	h3 {
+		font-size: 2rem;
+	}
+	h5 {
+		font-size: 1rem;
+	}
+	button {
+		color: white;
+		background-color: cadetblue;
+		width: 200px;
+		height: 50px;
+		border-radius: 30px;
+		margin: 10px;
+		border: none;
+	}
+	button:hover {
+		cursor: pointer;
+		opacity: 0.8;
+	}
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 50px;
+}

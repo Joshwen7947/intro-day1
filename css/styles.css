@@ -1,1 +1,74 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.cv-title {
+  font-size: 50px;
+  padding: 25px;
+  text-decoration: underline;
+}
+
+.about-me {
+  background-color: cadetblue;
+  text-align: center;
+  padding: 2rem;
+}
+
+.about-me img {
+  width: 30%;
+}
+
+.portfolio {
+  padding: 25px;
+}
+
+.card-one {
+  margin: auto;
+  width: 18rem;
+  border: 3px solid black;
+}
+
+.card-one img {
+  width: 100%;
+}
+
+.card-one h3 {
+  font-size: 2rem;
+}
+
+.card-one h5 {
+  font-size: 1rem;
+}
+
+.card-one button {
+  color: white;
+  background-color: cadetblue;
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  margin: 10px;
+  border: none;
+}
+
+.card-one button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 50px;
+}
+/*# sourceMappingURL=styles.css.map */
