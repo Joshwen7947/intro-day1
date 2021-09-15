@@ -11,6 +11,7 @@
 	font-size: 50px;
 	padding: 25px;
 	text-decoration: underline;
+	background-color: cadetblue;
 }
 
 .about-me {
@@ -23,11 +24,13 @@
 }
 .portfolio {
 	padding: 25px;
+	background-color: chocolate;
 }
 .card-one {
 	margin: auto;
 	width: 18rem;
 	border: 3px solid black;
+	background-color: white;
 	img {
 		width: 100%;
 	}
@@ -56,4 +59,5 @@
 	display: flex;
 	justify-content: space-between;
 	padding-bottom: 50px;
+	background-color: chocolate;
 }
